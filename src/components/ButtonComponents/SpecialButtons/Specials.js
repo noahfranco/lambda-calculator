@@ -1,9 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 
 //import any components needed
-
+import SpecialButton from "./SecialButton.js"
 //Import your array data to from the provided data file
-
+import { specials} from "../../../data.js"
 const Specials = () => {
   // STEP 2 - add the imported data to state
 
@@ -15,3 +15,4 @@ const Specials = () => {
     </div>
   );
 };
+
