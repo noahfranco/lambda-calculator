@@ -8,7 +8,7 @@ import Numbers from "./components/ButtonComponents/NumberButtons/Numbers"
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from "./components/DisplayComponents/Logo";
 import Operators from "./components/ButtonComponents/OperatorButtons/Operators.js";
-
+// import Specials from "./components/ButtonComponents/SpecialButtons/Specials.js"
 function App() {
   // STEP 5 - After you get the components displaying using the provided data file, write your state hooks here.
   // Once the state hooks are in place write some functions to hold data in state and update that data depending on what it needs to be doing
@@ -32,7 +32,7 @@ function App() {
         {/* < Display calculation={calculation} /> */}
         <Numbers /> 
         <Operators /> 
-        
+        {/* <Specials /> */}
       </div>
     </div>
   );
