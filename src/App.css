@@ -1,0 +1,35 @@
+.container {
+    background: red;
+    display: flex; 
+    flex-direction: column; 
+}
+
+.Numbercontainer {
+    width: 25rem; 
+    display: flex; 
+    flex-wrap: wrap; 
+    background: black; 
+    justify-content: space-around; 
+}
+
+.Specialscontainer {
+    width: 25rem; 
+    background: blue; 
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.numberButtons {
+    background: blue; 
+    color: white; 
+    border-radius: 50%; 
+    padding: 50px; 
+}
+
+.specialbuttons {
+    background: green; 
+    color: white; 
+    border-radius: 50%; 
+    padding: 50px; 
+}
+
