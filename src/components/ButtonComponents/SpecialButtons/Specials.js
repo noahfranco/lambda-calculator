@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
 //import any components needed
-import SpecialButton from "./SecialButton.js"
+import SpecialButton from "./SpecialButton.js"
 //Import your array data to from the provided data file
 import {specials} from "../../../data.js"
 const Specials = () => {
